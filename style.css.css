@@ -1,0 +1,172 @@
+body{
+    background-color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+div.debug{
+    border: 1px solid red;
+}
+
+@font-face{
+    font-family:'maisonneuebook';
+    src:url('MaisonNeue-Book.woff') format('woff');
+}
+
+
+/* typography */
+div.largetext{
+    font-size:100px;
+    line-height: 100px;
+    font-family: "din-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+div.mediumtext{
+    font-size:96px;
+    line-height:96px;
+    font-family: "din-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+div.smalltext{
+    font-size:17px;
+    line-height:17px;
+    font-family:'maisonneuebook';
+    font-style: normal;
+    line-height:20px;
+}
+div.extrasmall{
+    font-size:13px;
+    line-height: 13px;
+    font-family:'maisonneuebook';
+    font-style: normal;
+}
+
+/* margins */
+div.mt100{
+    margin-top:100px;
+}
+
+div.mt20{
+    margin-top:20px;
+}
+
+div.mb50{
+    margin-bottom: 50px;
+}
+
+div.mb100{
+    margin-bottom: 100px;
+}
+
+div.ml50{
+    margin-left: 50px;
+}
+
+div.ml500{
+    margin-left: 500px;
+}
+
+div.mlauto{
+    margin-left: auto;
+}
+
+div.mrauto{
+    margin-right:auto;
+}
+
+div.mtauto{
+    margin-top: auto;
+}
+
+div.text-white{
+    color:white;
+    background-color: black;
+}
+
+div.whiteborder{
+    border: 1px solid white;
+}
+
+
+/* bg colour */
+div.bg-black{
+    background-color: black;
+}
+div.bg-white{
+    background-color: white;
+}
+
+
+/* layout */
+
+div.width25{
+    width:25%
+}
+
+div.width50{
+    width:50%
+}
+
+div.width75{
+    width:75%
+}
+
+div.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.flexend{
+    justify-content: flex-end;
+}
+
+div.flexcenter{
+    justify-content: center;
+}
+
+div.spacebetween{
+    justify-content: space-between;
+}
+
+div.alignstart{
+    align-items: flex-start;
+}
+
+div.alignend{
+    align-items: flex-end;
+}
+
+div.aligncenter{
+    align-items: center;
+}
+
+div.overlay{
+    position: relative;
+}
+
+div.title{
+    position: absolute;
+    top:40%;
+    left:13%;
+}
+
+div.title2{
+    position:absolute;
+    top:53%;
+    left:18%;
+}
+
+div.caption{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
