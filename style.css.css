@@ -4,7 +4,7 @@ body{
     font-size:20px;
 }
 
-img{
+img, video{
     width: 100%;
     display: block;
 }
@@ -48,6 +48,10 @@ div.extrasmall{
     font-style: normal;
 }
 
+div.textcenter{
+    text-align: center;
+}
+
 /* margins */
 div.mt100{
     margin-top:100px;
@@ -55,6 +59,10 @@ div.mt100{
 
 div.mt20{
     margin-top:20px;
+}
+
+div.mt200{
+    margin-top:200px;
 }
 
 div.mb50{
@@ -69,6 +77,14 @@ div.ml50{
     margin-left: 50px;
 }
 
+div.ml100{
+    margin-left:100px;
+}
+
+div.ml300{
+    margin-left:300px;
+}
+
 div.ml500{
     margin-left: 500px;
 }
@@ -79,6 +95,18 @@ div.mlauto{
 
 div.mrauto{
     margin-right:auto;
+}
+
+div.mr50{
+    margin-right:50px;
+}
+
+div.mr50{
+    margin-right: 50px;
+}
+
+div.mr100{
+    margin-right:100px;
 }
 
 div.mtauto{
@@ -168,5 +196,41 @@ div.caption{
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
+}
+
+
+/* hero video */
+
+div.herovideo{
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    z-index:999;
+}
+
+div.herovideo video{
+    border-radius: 5px;
+}
+
+/* folio marks */
+
+div.folio{
+    position: fixed;
+    left:0px;
+    top:0px;
+    width: 100%;
+    font-family: "din-condensed";
+    font-size: 17px;
+    z-index:999;
+}
+
+div.folio div{
+    background-color:black;
+    color:white;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right:10px;
+
 }
 
