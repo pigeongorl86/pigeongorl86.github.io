@@ -1,6 +1,6 @@
 body{
     background-color:white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "din-condensed", sans-serif;
     font-size:20px;
     padding:0%;
     margin:0%;
@@ -31,18 +31,17 @@ div.largetext{
     font-style: normal;
 }
 div.mediumtext{
-    font-size:40px;
-    line-height:40px;
+    font-size:50px;
+    line-height:50px;
     font-family: "din-condensed", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 div.smalltext{
-    font-size:17px;
-    line-height:17px;
+    font-size:25px;
+    line-height:28px;
     font-family:'maisonneuebook';
     font-style: normal;
-    line-height:20px;
 }
 div.extrasmall{
     font-size:13px;
@@ -58,6 +57,17 @@ div.textcenter{
 div.textjustify{
     text-align: justify;
 }
+
+div.timestamp{
+    background-color: black;
+    border:white;
+    border: 1px solid white;
+    width:39px;
+    font-size: 20px;
+    line-height: 20px;
+    font-family:"din-condensed";
+}
+
 
 /* margins */
 div.mt100{
@@ -190,16 +200,24 @@ div.overlay{
 
 div.container.absolute {
     position: absolute;
-    top: 40%;
-    left: 20%;
+    top: 5%;
+    left:6%;
 }
 
 div.title{
-    padding-bottom: 10px;
+    color:white;
 }
 
 div.title2{
     transform: translateY(-10px)
+}
+
+div.paddingleft20{
+    padding-left: 10px;
+}
+
+div.paddingright20{
+    padding-right:20px;
 }
 
 div.caption{
@@ -295,21 +313,137 @@ div.welcome {
 
 div.handpopup{
     position:fixed;
-    width:100%
+    width:100%;
     z-index: -1;
     display:none;
 }
 
- /* div.videobg{
+div.highlight{
+    background-color: black;
+    color:white;  
+}
+
+div.rather.active{
+    color:blue;
+}
+
+div.eye1{
+    position: absolute;
+    left:30px;
+    width:50%;
+    z-index: 1;
+    display:none;
+}
+
+div.eye1.active{
+    display:flex;
+}
+
+div.eye2{
+    position: absolute;
+    left:30px;
+    width:50%;
+    z-index: 2;
+    display:none;
+}
+
+div.eye2.active{
+    display:flex;
+}
+
+div.eye3{
+    position: absolute;
+    left:30px;
+    width:50%;
+    z-index: 3;
+    display:none;
+}
+
+div.eye3.active{
+    display:flex;
+}
+
+div.eye4{
+    position: absolute;
+    left:30px;
+    width:50%;
+    z-index: 3;
+    display:none;
+}
+
+div.eye4.active{
+    display:flex;
+}
+
+div.eye5{
+    position: absolute;
+    left:30px;
+    width:50%;
+    z-index: 3;
+    display:none;
+}
+
+div.eye5.active{
+    display:flex;
+}
+
+div.forehead{
+    position: absolute;
+    left:30px;
+    width:50%;
+    z-index: 3;
+    display:none;
+}
+
+div.forehead.active{
+    display:flex;
+}
+
+div.mouth{
+    position: absolute;
+    left:30px;
+    width:50%;
+    z-index: 3;
+    display:none;
+}
+
+div.mouth.active{
+    display:flex;
+}
+
+div.mouth2{
+    position: absolute;
+    left:30px;
+    width:50%;
+    z-index: 3;
+    display:none;
+}
+
+div.mouth2.active{
+    display:flex;
+}
+
+div.eyefootage{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    filter: grayscale(100%) invert(100%) opacity(70%);
+    display:none;
+}
+
+div.eyefootage.active{
+    display:flex;
+}
+
+ /* div.eyebg{
     position:fixed;
-    background-color: rgba(0,0,0,4);
     width:100%;
     height:100vh;
     box-sizing: border-box;
     z-index: -1;
-    display:none
- }
+    display:none;
+ } */
 
- div.videobg.active{
-    display:flex;
+ /* div.eyebg.active{
+    display:block;
  } */
