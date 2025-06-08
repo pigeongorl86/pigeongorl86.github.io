@@ -40,13 +40,14 @@ div.mediumtext{
 div.smalltext{
     font-size:25px;
     line-height:28px;
-    font-family:'maisonneuebook';
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family:'maisonneuebook'; */
     font-style: normal;
 }
 div.extrasmall{
     font-size:13px;
     line-height: 13px;
-    font-family:'maisonneuebook';
+    font-family:'Times New Roman', Times, serif;
     font-style: normal;
 }
 
@@ -206,6 +207,8 @@ div.container.absolute {
 
 div.title{
     color:white;
+    transform:scaleY(3);
+    margin-top:30px;
 }
 
 div.title2{
@@ -295,6 +298,18 @@ div.welcome {
 
  body.mainpage.blur{
     filter: blur(5px) brightness(200%);
+ }
+
+ body.mainpage.shift{
+    filter: grayscale(1) contrast(10);
+ }
+
+ body.mainpage.shift2{
+    filter: contrast(10) invert(1);
+ }
+
+ body.mainpage.shift3{
+    filter: grayscale(1) blur(5px);
  }
 
  div.popup{
@@ -426,8 +441,9 @@ div.mouth2.active{
 div.eyefootage{
     position: absolute;
     width: 100%;
-    z-index: 1;
-    filter: grayscale(100%) invert(100%) opacity(70%);
+    z-index:1;
+    filter: grayscale(100%);
+    mix-blend-mode: hard-light;
     display:none;
 }
 
@@ -435,15 +451,26 @@ div.eyefootage.active{
     display:flex;
 }
 
- /* div.eyebg{
-    position:fixed;
-    width:100%;
-    height:100vh;
-    box-sizing: border-box;
-    z-index: -1;
+div.cloud1{
+    position: absolute;
+    left:30px;
+    width:50%;
+    z-index: 3;
     display:none;
- } */
+}
 
- /* div.eyebg.active{
-    display:block;
- } */
+div.cloud1.active{
+    display:flex;
+}
+
+div.cloud2{
+    position:absolute;
+    right:50px;
+    width:50%;
+    z-index: 3;
+    display:none;
+}
+
+div.cloud2.active{
+    display:flex;
+}
