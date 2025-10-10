@@ -1,0 +1,290 @@
+body {
+    background-color: rgb(239, 238, 231);
+    font-family: "pt-sans", "adobe-handwriting-ernie", "letter-gothic-std", monospace;
+    font-size: 20px;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* typography */
+@font-face {
+    font-family: 'stylebender';
+    src: url('StylebenderRegular.woff') format('woff');
+}
+
+
+div.title {
+    font-size: 150px;
+    line-height: 120px;
+    font-family: "stylebender";
+    font-style: normal;
+}
+
+div.subheading {
+    font-size: 100px;
+    line-height: 100px;
+    font-family: "stylebender";
+    font-style: normal;
+}
+
+div.decortext {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "adobe-handwriting-ernie";
+    font-style: normal;
+}
+
+div.bodytext {
+    font-size: 17px;
+    line-height: 20px;
+    font-family: "letter-gothic-std", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+div.caption {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: "letter-gothic-std", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+div.text-white {
+    font-size: 17px;
+    font-family: "letter-gothic-std", monospace;
+    color: rgb(239, 238, 231);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.text-red {
+    font-size: 59px;
+    font-family: "adobe-handwriting-ernie";
+    line-height: 65px;
+    color: rgb(174, 34, 42);
+    text-align: center;
+}
+
+.text2-red {
+    font-size: 18px;
+    font-family: "letter-gothic-std", monospace;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 20px;
+    color: rgb(174, 34, 42);
+}
+
+/* margins*/
+
+div.mt20 {
+    margin-top: 20px;
+}
+
+div.mt50{
+    margin-top: 50px;
+}
+
+div.mt100 {
+    margin-top: 100px;
+}
+
+div.mt200{
+    margin-top: 200px;
+}
+
+div.ml20 {
+    margin-left: 20px;
+}
+
+div.mr20 {
+    margin-right: 20px;
+}
+
+div.mr50 {
+    margin-right: 50px;
+}
+
+div.mt-500 {
+    margin-top: -500px;
+}
+
+div.mt-200{
+    margin-top: -200px;
+}
+
+div.mb-50 {
+    margin-bottom: 50px;
+}
+
+div.mlauto{
+    margin-left: auto;
+}
+
+div.mrauto{
+    margin-right: auto;
+}
+
+/* Grid */
+div.width1 {
+    width: 20%;
+}
+
+div.width2 {
+    width: 40%;
+}
+
+div.width3 {
+    width: 60%;
+}
+
+div.width4 {
+    width: 80%;
+}
+
+div.width5 {
+    width: 100%;
+}
+
+.h1500 {
+    height: 1500px;
+}
+
+.h500{
+    height: 500px;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+}
+
+div.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.center-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+
+/* Image sizes */
+
+.fullvw {
+    width: 100vw;
+    height: auto;
+}
+
+.crop-square {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+}
+
+div.relative-img {
+    position: relative;
+}
+
+/* bg colour */
+div.bg-black {
+    background-color: rgb(25, 25, 27);
+}
+
+div.bg-grey {
+    background-color: rgb(239, 238, 231);
+}
+
+div.bg-red {
+    background-color: rgb(174, 34, 42);
+}
+
+/* Positions */
+div.sticky {
+    position: sticky;
+    top: 100px;
+    left: 0;
+}
+
+div.relative {
+    position: relative;
+}
+
+
+/* Padding */
+div.pb1000 {
+    padding-bottom: 1000px;
+}
+
+div.pb50 {
+    padding-bottom: 50px;
+}
+
+div.pl50{
+    padding-left: 50px;
+}
+
+div.p20{
+    padding: 20px;
+}
+
+div.p50{
+    padding: 50px;
+}
+
+/* decors */
+div.swatch {
+    width: 100px;
+    height: 100px;
+}
+
+div.border {
+    border: 1px solid black;
+}
+
+.border-red {
+    border: 1px solid rgb(174, 34, 42);
+    padding: 5px;
+    display: inline-block;
+}
+
+div.borderedtext {
+    border: 1px solid black;
+    padding: 5px;
+    display: inline-block;
+}
+
+button {
+    border: none;
+    background: none;
+
+    padding: 5px;
+    margin: 0;
+
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-align: center;
+
+    text-decoration: none;
+
+    outline: none;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+button:hover {
+    background-color: rgb(174, 34, 42);
+    color: rgb(239, 238, 231);
+}
