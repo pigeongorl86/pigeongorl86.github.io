@@ -72,7 +72,7 @@ div.text-whitebg {
 div.text-red {
     font-size: 59px;
     font-family: "adobe-handwriting-ernie";
-    line-height: 65px;
+    line-height: 70px;
     color: rgb(174, 34, 42);
     text-align: center;
 }
@@ -106,6 +106,14 @@ div.mt100 {
 
 div.mt200 {
     margin-top: 200px;
+}
+
+div.mt400{
+    margin-top: 400px;
+}
+
+div.mt500{
+    margin-top: 500px;
 }
 
 .mtauto  {
@@ -201,8 +209,8 @@ div.width5 {
     height: 800px;
 }
 
-.fullvh {
-    height: 100vh;
+.fullh {
+    height: 100%;
 }
 
 
@@ -211,7 +219,6 @@ div.container {
     flex-wrap: wrap;
     height: 100vh;
     width: 100vw;
-    padding: 20px;
 }
 
 div.flex-container {
@@ -229,8 +236,8 @@ div.center-container {
 
 /* Image sizes */
 
-.fullvw {
-    width: 100vw;
+.fullw {
+    width: 100%;
     height: auto;
 }
 
@@ -245,6 +252,7 @@ div.center-container {
 div.relative-img {
     position: relative;
 }
+
 
 /* bg colour */
 div.bg-black {
