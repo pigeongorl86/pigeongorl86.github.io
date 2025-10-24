@@ -276,7 +276,7 @@ div.sticky {
 
 div.fishsticky {
     position: sticky;
-    top: 0%;
+    top: 10%;
 }
 
 div.relative {
@@ -302,6 +302,10 @@ div.pb20 {
 
 div.pl50 {
     padding-left: 50px;
+}
+
+div.pl20{
+    padding-left: 20px;
 }
 
 div.p20 {
